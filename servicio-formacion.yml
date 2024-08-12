@@ -3,6 +3,7 @@ server:
 eureka:
   instance:
     instance-id: servicio-formacion
+    hostname: 172.25.104.223
   client:
     serviceUrl:
       defaultZone: http://172.25.104.223:8761/eureka
