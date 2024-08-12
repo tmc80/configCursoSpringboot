@@ -5,4 +5,4 @@ eureka:
     instance-id: servicio-formacion
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://172.25.104.223:8761/eureka
